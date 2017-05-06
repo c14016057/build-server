@@ -1,0 +1,9 @@
+#This is a solution to speed up ssh-connect
+Step1:
+	In /ect/ssh/sshd_config add 
+	UseDNS no
+Step2:
+	Do 
+	sudo servicd sshd restart
+
+
